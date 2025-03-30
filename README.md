@@ -45,16 +45,16 @@ Run the script to list all active AWS resources:
 
 ## Output Example
 ```bash
-í ½í´ Finding all active AWS resources...
+Finding all active AWS resources...
 
-í ½í´¹ EC2 Instances:
+EC2 Instances:
 ----------------------------------------------------
 |  InstanceId   | InstanceType | PublicIpAddress  |
 ----------------------------------------------------
 |  i-01234abcd  |  t3.micro    |  52.23.45.67     |
 ----------------------------------------------------
 
-í ½í´¹ S3 Buckets:
+S3 Buckets:
 2025-03-29 13:00:00 my-s3-bucket
 ...
 ```
@@ -68,11 +68,6 @@ Add the following line:
 ```bash
 0 0 * * * /path/to/aws_resources.sh > /path/to/aws_resources.log 2>&1
 ```
-
-## License
-This script is open-source and available under the MIT License.
-
 ## Author
-[Your Name] - [Your Email] - [Your GitHub Profile]
-
+Thanura Rukshan - thanurarukshan2000@gmail.com - [LinkedIn](https://www.linkedin.com/in/thanurarukshan/)
 
